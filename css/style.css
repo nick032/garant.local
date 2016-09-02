@@ -5,8 +5,20 @@
 	src: url(../fonts/Roboto-Regular.ttf);
 }
 
+.col-xs-4, {
+	margin: 0;
+	padding: 0;
+}
+
 .container {
-	min-width: 970px;
+	min-width: 1170px;
+	padding: 0;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: 0;
+	width: 1170px;
 }
 
 .center-text {
@@ -21,6 +33,15 @@
 	float: right;
 }
 
+.shadow {
+	box-shadow: 0px 20px 50px #000;
+}
+
+.mt {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
 /*  End services classes  */
 
 /*  Base style  */
@@ -33,7 +54,7 @@ body {
 /*  Section header  */
 header {
   padding: 10px 0; 
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 header .logo{
@@ -65,4 +86,37 @@ header .logo{
   width: 200px;
   height: 100px;
 }
+
+/*  Navigation section  */
+
+nav, main {
+	background-color: #fff;
+}
+
+.nav {
+	width: 100%;
+	background-color: #fff;
+}
+
+.nav li {
+	display: inline-block;
+	width: 164px;
+}
+
+
+.nav li a{
+	text-align: center;
+	color: #F5598B;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.navbar-nav {
+	margin: 0;
+}
+
+.img-menu img{
+	width: 340px;
+}
+/*  End Navigation section  */
 
