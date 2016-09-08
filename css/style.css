@@ -191,7 +191,7 @@ footer {
 	background-color: #70476B;
 	color: #fff;
 	padding-top: 20px;
-	height: 100px;
+	height: 140px;
 }
 
 footer .social-btn {
@@ -200,6 +200,11 @@ footer .social-btn {
 
 footer .social-btn img {
 	width: 48px
+}
+
+.footer-contacts,
+.footer-contacts .fa{
+	color: #fff;
 }
 
 /*  End Footer style*/
